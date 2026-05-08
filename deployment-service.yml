@@ -14,7 +14,7 @@ spec:
       containers:
         - name: boardgame
           image: emailanurag/boardshack:latest
-          imagePullPolicy: IfNotPresent
+          imagePullPolicy: Always
           ports:
             - containerPort: 8080
 
