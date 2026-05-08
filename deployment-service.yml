@@ -9,7 +9,8 @@ spec:
       app: boardgame
   template:
     metadata:
-      labels: boardgame
+      labels:
+        apps: boardgame
     spec:
       containers:
         - name: boardgame
